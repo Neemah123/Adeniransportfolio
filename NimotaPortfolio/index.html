@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!--<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&family=Noto+Serif+Telugu:wght@300&family=Permanent+Marker&display=swap" rel="stylesheet">-->
+<script src="https://kit.fontawesome.com/374684b99c.js" crossorigin="anonymous"></script>    
+<link rel="stylesheet" href="styles.css">
+    <title>neemsportfolio</title>
+</head>
+<body>
+ <nav id="navbar">
+        <ul>
+            <li class="nav-item">
+                <a class="nav-link"  href="#Meet">Meet me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="#skills">My skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Projects">My Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact Me</a>
+            </li>
+        </ul>
+ </nav>
+ <!--Meet me--> 
+ <div>
+ <div class="intro-section">
+ <div id="intro">
+ <div id="Meet">
+Hi, I'm Adeniran Nimota<br>
+ <span id="dev">a front end developer</span>
+ </div>
+ <div id="about">I'm a proactive individual with a highly result-oriented 
+     personality and a sucker for career growth and development. Totally committed to 
+     challenging job and projects that offers self growth and opportunity to contribute effectively and 
+     efficiently to an organization. </div>
+ </div>
+ <div id="neems-img">
+    <img src="neems.JPG" height="400px" style="border-radius: 25% 10%;">
+ </div>
+</div>
+ </div>
+
+ <!--skills-->
+<div id="skills">
+   <h1 id="skills-header">My Skills</h1> 
+   <ul id="skill-list">
+    <!-- skill html-->
+  <div id="htmlcss">
+    <p id="html-description">I'm good at</p>
+    <div id="skill-description">
+    <ul id="html">
+    <li>HTML 5
+      <i class="fa-brands fa-html5 fa-beat-fade fa-lg" style="color: #eea47f;"></i></li>
+    </ul>
+    <ul id="css">
+<li>CSS 3
+  <i class="fa-brands fa-css3 fa-beat-fade fa-lg" style="color: #eea47f;"></i>
+</li>
+    </ul>
+   </div>
+   <div>
+    <p>I'm currently learning</p>
+    <div id="skill-description">
+      <ul id="html">
+      <li>JavaScript
+        <i class="fa-brands fa-square-js fa-beat-fade fa-lg" style="color: #eea47f;"></i></li>
+      </ul>
+      <ul id="css">
+  <li>Bootstrap
+    <i class="fa-brands fa-bootstrap fa-beat-fade fa-lg" style="color: #eea47f;"></i></li>
+      </ul>
+     </div>
+   </div>
+  </div>
+  </div>
+
+ <!--projects-->
+ <div id="Projects">
+  <h1 id="project-header">some of my work </h1>
+  <div  id="project-container">
+    <!--tribute-->
+     <div style="width:250px" id="tribute">
+      <a id="project-link" href=" https://codepen.io/Neemah/pen/gOvyYOL">
+        <img id="project-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Dr. Norman Borlaug" width="250px" height="300px">
+      </a>
+      <div class="card-body">
+        <h4 class="card-title" id="card-title">A tribute page</h4>
+      </div>
+    </div> 
+    <!--booking form-->
+    <div style="width:250px" id="tribute">
+      <a id="project-link" href="./Bookingform/app.html" width="250px">
+        <img id="project-img" src="booking.jpeg" height="300px" width="250px">
+      </a>
+      <div class="card-body">
+        <h4 class="card-title" id="card-title">Booking form</h4>
+      </div>
+    </div> 
+    <!--id-->
+    <div class="card flexbox-item flexbox-item-1" style="width:250px" id="tribute">
+      <a id="project-link" href="./identitycard/index.html">
+        <img id="project-img" src="idcard.jpeg" width="250px" height="300px">
+      </a>
+      <div class="card-body">
+        <h4 class="card-title" id="card-title">Identity card</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Contact-->
+    <div id="contact-section">
+        <h2 id="contactme">CONTACT ME</h2>
+        
+          <div  id="contact-division">
+            <div id="Contact" style="width:380px;" class="side" >
+              <form id="contact-form">
+        <p ><input type="text" id="input-name" style="background-color: #08113cf9 " class="contact-input" placeholder="Name" /><br>
+        </p>
+        <p>
+        <input type="email"id="input-email" style="background-color: #08113cf9" class="contact-input" placeholder="Email" /><br>
+        </p>
+        <p>
+        <textarea
+          name="message"
+          id="message"
+          style="background-color: #08113cf9"
+          placeholder="leave a message">
+        </textarea><br>
+        </p>
+        <button class="btn btn-block" id="send-button">Send Message
+          <i class="fas fa-mail"></i>
+        </button>
+      </form>
+            </div>
+    <!--get in touch-->
+      <div id="getintouch" class="side" style="width: 275px;">
+        You can also contact me via<br>
+        Email<i class="fa fa-fw fa-envelope"></i> : adunniadeniran@gmail.com
+       phone number <i class="fas fa-mobile-alt"></i> : +2349067095267
+      </div>
+    </div>
+</div>   
+          
+ 
+    <!-- START CONTACT SECTION -->
+<section id="contact-footer" class="contact-section">
+  <div class="contact-section-header">
+   <p id="name"> Adeniran Nimota Ololade</p>
+   <p id="title"> front end developer</p>
+  </div>
+  <div class="contact-links" >
+    <a href="instagram.com/_nee.mah"  id="footer-link">
+      <i class="fa-brands fa-instagram fa-xs" style="color: #ffffff;"></i> Instagram</a>
+    <a  href="https://github.com/Neemah123" class="btn contact-details" id="footer-link">
+      <i class="fab fa-github"></i> GitHub</a>
+    <a href="https://twitter.com/_neemah_"
+      class="btn contact-details" id="footer-link">
+    <i class="fab fa-twitter"></i> Twitter</a>
+    <a href="mailto:adunniadeniran@gmail.com"  id="footer-link">
+      <i class="fa-regular fa-envelope fa-xs" style="color: #ffffff;"></i>Send a mail</a>
+      <a href="https://www.linkedin.com/in/nimota-adeniran-5b0782232"
+     id="footer-link">
+     <i class="fa-brands fa-linkedin fa-xs" style="color: #ffffff;"></i> linkedin</a>
+  </div>
+<!-- END CONTACT SECTION -->
+<!-- START FOOTER SECTION -->
+<footer >
+  <p id="the-end"> 
+    &copy; Adeniran Nimota. All rights reserved.</p>
+</footer>
+</section>
+<!-- END FOOTER SECTION -->
+</body>
+</html>

@@ -1,0 +1,29 @@
+#card{
+   margin-left: 400px;
+   margin-right: 400px;
+   
+}
+#idcard{
+    background-color:#c89666;
+    border: 5px solid #523011;
+    text-align: center;
+    height: 700px;
+    width: 600px;
+    border-radius: 25% 10%;
+}
+img{
+    height: 400px;
+    border-radius: 25% 10%;
+    margin-top: 50px;
+}
+#bio{
+    color: #523011;
+}
+#stack{
+    font-size: 25px;
+}
+#aboutme{
+    font-size: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

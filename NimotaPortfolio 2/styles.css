@@ -1,0 +1,301 @@
+@media screen and (min-width:600px max-width: 1920px){
+    * {
+    margin: 0 auto;
+    padding: 0;
+    }
+}
+
+body{
+    background-color: #08113cf9;
+    
+}
+/* navlink */
+#navbar{
+    background-color: #08113cf9;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+@media screen and (max-width:600px) {
+    nav li{
+        display: block; 
+    } 
+}
+#navbar a{
+    color: rgba(238, 164, 127, 0.793);
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 70px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar a:hover{ 
+    color:  white ;
+}
+
+/* meet me */
+#intro{
+    padding-left: 80px;
+}
+
+#Meet{
+    font-size: 45px;
+    color: white ;
+    padding-top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Meet #dev{
+    color: rgba(238, 164, 127, 0.793);
+    font-family: 'Permanent Marker', cursive;
+}
+#about{
+    color: white;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+}
+/* img */
+#neems-img{ 
+    padding-top: 50px;
+  border-radius: 25% 10%;
+ flex-direction: row;
+    display: flex;
+    padding-left: 150px;
+  }
+  @media screen and (max-width:600px) {
+    #neems-img{
+        flex-direction: column;
+    } 
+}
+
+  #left{
+   padding-left: 30px;
+
+  }
+  #center{
+    padding-left: 30px;
+   
+  }
+  #right{
+    padding-left: 30px;
+  }
+/* skills*/
+#skills, #contact-section{
+    margin-top: 100px;
+    background-color:  #1e264ff9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px; 
+    border-radius: 30px;  
+}
+
+
+#skill-description ul{ 
+    display: inline-block;
+}
+
+#skills-header, #contactme{
+    color: rgba(238, 164, 127, 0.793);
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 5px 2px 4px rgb(133, 81, 53);
+    text-align: center;
+}
+
+#skill-list{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+    font-size: 35px;
+    margin-top: 30px;
+    list-style-type: square;
+}
+@media screen and (max-width:600px) {
+    #skill-list{
+        font-size:20px ;
+    } 
+}
+
+/*projects*/
+#Projects{
+    background-color:  #1e264ff9;
+    margin-top: 100px;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    }
+    
+    #project-container{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 20px;
+       padding-bottom: 50px;
+        
+    }
+    @media screen and (max-width:600px) {
+        #project-container{
+        flex-direction: column;
+        } 
+    }
+    
+    #project-header{
+        color: rgba(238, 164, 127, 0.793);
+        font-family: 'Permanent Marker', cursive;
+        text-shadow: 5px 2px 4px rgb(133, 81, 53);
+        text-align: center;
+    }
+    #tribute{
+        background-color: #08113cf9;
+    }
+    
+    #card-title{
+        color: rgba(238, 164, 127, 0.793);
+        font-family: 'Permanent Marker', cursive;
+    text-shadow: 5px 2px 4px rgb(133, 81, 53);
+    }
+    /*contact*/
+    #contact-division{
+        padding-left: 70px;
+            padding-right: 70px;
+            padding-top: 10px;
+           padding-bottom: 20px;
+    }
+    @media screen and (max-width:600px) {
+        #contact-division{
+        justify-content: center;
+        padding-right: 0px;
+        } 
+    }
+    
+    @media screen and (max-width:600px) {
+        #contact-section{
+        justify-content: center;
+        } 
+    }
+    #contact-division .side{
+        display: inline-block;
+    }
+    @media screen and (max-width:600px) {
+        #contact-division .side{
+        justify-content: center;
+        } 
+    }
+    #input-name, #input-email{
+    border: 2px solid rgba(238, 164, 127, 0.793);
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    }
+    @media screen and (max-width:600px) {
+        
+    #input-name, #input-email,  #message{
+        width: 200px;
+        } 
+    }
+    
+    #message{
+        border: 2px solid rgba(238, 164, 127, 0.793); 
+        border-radius: 10px;
+        width: 300px;
+        height: 200px; 
+    }
+    #contact{
+     width: 330px;   
+    }
+    @media screen and (max-width:600px) {
+        
+        #contact{
+            width: 230px;
+            } 
+        }
+    #getintouch{
+        width:20px;
+        color: rgba(238, 164, 127, 0.793);
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+    }
+    /* send button */
+    #send-button{
+        background-color: rgba(238, 164, 127, 0.793);
+        color: #1e264ff9;;
+    }
+    #send-button:hover{
+        color:rgba(112, 54, 24, 0.793);
+    }
+    /* footer */
+    #contact-footer{
+        text-align: center;
+        margin-top: 200px;
+        color:rgba(255, 255, 255, 0.517);
+    }
+   
+  #footer-link{
+        color: rgba(255, 255, 255, 0.517) !important;
+        text-decoration: none;
+    }
+#footerlink a:hover{
+    font-size: larger;
+}
+    #the-end{
+        margin-top: 50px;
+    }
+    #name{
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-size: 20px;
+    }
+    #title{
+        font-weight: bolder; 
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+    }
+
+       .contact-section-header > h2 {
+          font-size: 4rem;
+        }
+      
+      .contact-details {
+        text-shadow: 2px 2px 1px #1f1f1f;
+        transition: transform 0.3s ease-out;
+      }
+      .contact-details:hover {
+        transform: translateY(8px);
+      }
+      
+    
+        footer {
+          flex-direction: column;
+          text-align: center;
+        }
+        #footer-link{
+            padding: 15px;
+
+        }
+
+      
+       @media (max-width: 28.75em) {
+        .contact-section-header > h2 {
+          font-size: 4rem;
+        }
+      }
+      .contact-details {
+        text-shadow: 2px 2px 1px #1f1f1f;
+        transition: transform 0.3s ease-out;
+      }
+      .contact-details:hover {
+        transform: translateY(8px);
+      }
+      @media (max-width: 28.75em) {
+        footer {
+          flex-direction: column;
+          text-align: center;
+        } 
+    }
+    
